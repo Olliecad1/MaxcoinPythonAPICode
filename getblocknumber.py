@@ -20,14 +20,5 @@ blocks = new['result']['blocks']
 ## Stringing blocks variable
 blocks = str(blocks)
 
-## Getting the amount of coins in existance
-coins = new['result']['coins']
-
-## String coins variable
-coins = str(coins)
-
-## Printing coins variable
-print 'Amount of coins: ' + coins
-
 ## Printing blocks variable
 print 'Block Number: ' + blocks
